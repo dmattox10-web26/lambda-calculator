@@ -36,12 +36,13 @@
 .keypad {
     margin-top: 25px;
     height: 450px;
-    width: 450px;
+    width: 500px;
     display: flex;
+    margin-left: 5%;
 }
 
 .inputs {
-    width: 200px;
+    width: 480px;
 }
 
 .calc {
@@ -50,19 +51,23 @@
     text-align: center;
     line-height: 80px;
     border-radius: 50px;
-    background: #c0a025;
+    background: #2962b8;
+    margin: 1rem;
 }
 
-.numbers {
+.number-keys {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.operator-keys {
 
 }
 
-.operators {
-
-}
-
-.specials {
-
+.special-keys {
+    display: flex;
+    flex-direction: row;
 }
 
 .button {

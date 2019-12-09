@@ -9,8 +9,6 @@ import SpecialButton from './SpecialButton'
 const Specials = () => {
   // STEP 2 - add the imported data to state
   const [specialsState, updateSpecials] = useState(specials)
-  console.log(specialsState)
-  ///console.log([...specialsState.keys()])
   return (
     <div className='special-keys'>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
