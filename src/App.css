@@ -2,6 +2,7 @@
     background-color: #c00025;
     width: 100%;
     max-width: 550px;
+    height: 700px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
@@ -36,7 +37,7 @@
 .keypad {
     margin-top: 25px;
     height: 450px;
-    width: 500px;
+    width: 450px;
     display: flex;
     margin-left: 5%;
 }
@@ -52,13 +53,14 @@
     line-height: 80px;
     border-radius: 50px;
     background: #2962b8;
-    margin: 1rem;
+    margin: .71rem;
 }
 
 .number-keys {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
+    width: 400px;
 }
 
 .operator-keys {
