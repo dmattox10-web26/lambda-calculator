@@ -2,10 +2,22 @@
     background-color: #c00025;
     width: 100%;
     max-width: 550px;
+    height: 700px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
 }
+
+.app {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-container {
+    margin-top: 1em;
+    margin-left: 5%;
+}
+
 .display {
     margin-top: 25px;
     height: 100px;
@@ -18,5 +30,48 @@
     justify-content: flex-end;
     align-items: flex-end;
     padding-right: 8%;
+    margin-left: 5%;
     font-size: 5.0rem;
   }
+
+.keypad {
+    margin-top: 25px;
+    height: 450px;
+    width: 450px;
+    display: flex;
+    margin-left: 5%;
+}
+
+.inputs {
+    width: 480px;
+}
+
+.calc {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50px;
+    background: #2962b8;
+    margin: .71rem;
+}
+
+.number-keys {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    width: 400px;
+}
+
+.operator-keys {
+
+}
+
+.special-keys {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+
+}
